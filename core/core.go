@@ -12,7 +12,7 @@ func (s *slbCore) Init() {}
 
 func (s *slbCore) Start() {}
 
-func (s *slbCore) Name() service.ServiceName {
+func (s *slbCore) Name() service.Name {
 	return service.SlbServiceName
 }
 
